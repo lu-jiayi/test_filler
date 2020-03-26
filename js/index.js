@@ -11,13 +11,23 @@ ungram_control3 = {"item":993,"block":993,"list":99,"condition":"UNGRAM_old","Pr
 ungram_control4 = {"item":994,"block":994,"list":99,"condition":"UNGRAM_old","Presented_sentence":"Context: The TV host acknowledged the possibility that the company might file for bankruptcy. <p> Target: <b> Who did the TV host acknowledge that the possibility company for might the file bankruptcy by? <\/b>"}
 
 
-ungram_control5 = {"item":991,"block":991,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The priest of the local church saw a man sleeping under the bridge.  <p> Target: <b> What did the driver see that giant was stood city a van? <\/b>"}
+//ungram_control5 = {"item":991,"block":991,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The priest of the local church saw a man sleeping under the bridge.  <p> Target: <b> What did the driver see that giant was stood city a van? <\/b>"}
 
-ungram_control6 = {"item":992,"block":992,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The student wonders whether the manager of the supermarket will take him seriously. <p> Target: <b> Who does the bottle wonder was it absolutely shock the by hospital of? <\/b>"}
+//ungram_control6 = {"item":992,"block":992,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The student wonders whether the manager of the supermarket will take him seriously. <p> Target: <b> Who does the bottle wonder was it absolutely shock the by hospital of? <\/b>"}
 
-ungram_control7 = {"item":993,"block":993,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The team of researchers think that the government should provide them with more research funds. <p> Target: <b> What do the farmers team think that of should by be the given governor less with? <\/b>"}
+//ungram_control7 = {"item":993,"block":993,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The team of researchers think that the government should provide them with more research funds. <p> Target: <b> What do the farmers team think that of should by be the given governor less with? <\/b>"}
 
-ungram_control8 = {"item":994,"block":994,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The TV host acknowledged the possibility that the company might file for bankruptcy. <p> Target: <b> Who did the radio acknowledge that the impossible firm might for the document robbery on? <\/b>"}
+//ungram_control8 = {"item":994,"block":994,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The TV host acknowledged the possibility that the company might file for bankruptcy. <p> Target: <b> Who did the radio acknowledge that the impossible firm might for the document robbery on? <\/b>"}
+
+
+ungram_control5 = {"item":991,"block":991,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The priest of the local church saw a man sleeping under the bridge.  <p> Target: <b> What bridge the under saw churche local the of did priest the? <\/b>"}
+
+ungram_control6 = {"item":992,"block":992,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The student wonders whether the manager of the supermarket will take him seriously. <p> Target: <b> Who seriouly him take will supermarket the of manager the whether wonders? <\/b>"}
+
+ungram_control7 = {"item":993,"block":993,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The team of researchers think that the government should provide them with more research funds. <p> Target: <b> What more with them provide should government the that think researchers do? <\/b>"}
+
+ungram_control8 = {"item":994,"block":994,"list":99,"condition":"UNGRAM_new","Presented_sentence":"Context: The TV host acknowledged the possibility that the company might file for bankruptcy. <p> Target: <b> Who bankruptcy for file might company the that possibility the acknwoledged? <\/b>"}
+
 
 all_stimuli = all_stimuli.filter(function (e){
   return e.list == current_list;
